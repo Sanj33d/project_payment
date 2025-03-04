@@ -37,10 +37,10 @@
                     <img class="mx-auto" src="images/wallet1.png" alt="">
                     <p>Cash out</p>
                 </button>
-                <div class="border border-[rgba(8,8,8,0.7)] text-center rounded-xl p-4">
+                <button id="btn-transaction" class="border border-[rgba(8,8,8,0.7)] text-center rounded-xl p-4">
                     <img class="mx-auto" src="images/wallet1.png" alt="">
-                    <p>Add Money</p>
-                </div>
+                    <p>Transactions</p>
+                </button>
                 <div class="border border-[rgba(8,8,8,0.7)] text-center rounded-xl p-4">
                     <img class="mx-auto" src="images/wallet1.png" alt="">
                     <p>Add Money</p>
@@ -65,7 +65,7 @@
                   <form class="card-body">
                     <!-- selsect, daisyui -->
                     <legend>Select Bank</legend>
-                    <select class="select select-bordered w-full max-w-xs">
+                    <select id="inp-bank" class="select select-bordered w-full max-w-xs">
                       <option disabled selected>Islami Bank</option>
                       <option>Brac Bank</option>
                       <option>UCB</option>
@@ -111,7 +111,7 @@
                 <form class="card-body">
                   <!-- selsect, daisyui -->
                   <legend>Select Bank</legend>
-                  <select class="select select-bordered w-full max-w-xs">
+                  <select id="" class="select select-bordered w-full max-w-xs">
                     <option disabled selected>Islami Bank</option>
                     <option>Brac Bank</option>
                     <option>UCB</option>
@@ -147,11 +147,20 @@
             </div>
 
             </div>
+
+            <!-- Transaction History -->
+            <div id="transaction-history" class="">
+              <h1 class="text-xl font-bold text-center">Transaction History</h1>
+
+
+            </div>
+
          </section>
     </header>
 
     <script src="script/addmoney.js"></script>
     <script src="script/utilities.js"></script>
     <script src="script/cashout.js"></script>
+    <script src="script/transactionHistory.js"></script>
 </body>
 </html>
