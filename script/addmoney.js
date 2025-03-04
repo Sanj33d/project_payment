@@ -45,6 +45,6 @@ document.getElementById("btn-addmoney").addEventListener("click", function(event
         }
     }
     else{
-        alert("Account Number bhu")
+        alert("Account Number incorrect")
     }
 })
