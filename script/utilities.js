@@ -1,5 +1,6 @@
-// function getValueById(id){
-//     let varr = document.getElementById(id).value
-//     return varr
-// }
-    
+function removeActive() {
+    let arr = document.getElementsByClassName("active")
+    for (elem of arr) {
+        elem.classList.remove("active")
+    }
+}

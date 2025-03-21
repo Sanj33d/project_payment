@@ -1,5 +1,6 @@
 // login
 document.getElementById("btn-login").addEventListener("click", function(event){
+    // preventDefault() function prevents auto page reload
     event.preventDefault()
     
     const inputNumber = document.getElementById("input-number").value;
