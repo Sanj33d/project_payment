@@ -1,6 +1,6 @@
 function removeActive() {
-    let arr = document.getElementsByClassName("active")
-    for (elem of arr) {
+    let elems = document.getElementsByClassName("active")
+    for (elem of elems) {
         elem.classList.remove("active")
     }
 }

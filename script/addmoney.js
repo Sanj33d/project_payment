@@ -1,7 +1,7 @@
 document.getElementById("form-cashout").style.display = "none";
 document.getElementById("transaction-history").style.display = "none";
 
-// clicking 'cashout' section
+// clicking 'cash-out' section
 
 document.getElementById("box-cashout").addEventListener("click", function(){
     document.getElementById("form-cashout").style.display = "block";
